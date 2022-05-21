@@ -877,8 +877,6 @@ function toCommandValue(input) {
 exports.toCommandValue = toCommandValue;
 /**
  *
- *
- *
  * @param annotationProperties
  * @returns The command properties to send with the actual annotation command
  * See IssueCommandProperties: https://github.com/actions/runner/blob/main/src/Runner.Worker/ActionCommandManager.cs#L646
@@ -3923,13 +3921,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-<<<<<<< HEAD
-var deprecation = __nccwpck_require__(932);
-var once = _interopDefault(__nccwpck_require__(223));
-=======
 var deprecation = __nccwpck_require__(8932);
 var once = _interopDefault(__nccwpck_require__(1223));
->>>>>>> d05d4fc (package-lock.json)
 
 const logOnceCode = once(deprecation => console.warn(deprecation));
 const logOnceHeaders = once(deprecation => console.warn(deprecation));
@@ -4362,11 +4355,7 @@ function removeHook(state, name, method) {
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 932:
-=======
 /***/ 8932:
->>>>>>> d05d4fc (package-lock.json)
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
