@@ -2,10 +2,10 @@
   "name": "firstaction",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "action/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build index.js -o dist"
+    "build": "ncc build action/src/index.js -o dist"
   },
   "keywords": [],
   "author": "",
