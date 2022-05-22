@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build action/src/index.js -o dist",
-    "local": "ncc build action/src/index.js -o dist && act -j annotate-pr -b -s GITHUB_TOKEN=$GITHUB_TOKEN"
+    "local": "ncc build action/src/index.js -o dist && act -j annotate-pr -b -s GITHUB_TOKEN=$GITHUB_TOKEN -e pull_request.json"
   },
   "keywords": [],
   "author": "",
